@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.object {
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border: solid 20px green;
+    border-radius: 20px;
+    background: green;
+}
+
+.transform {
+    width: auto;
+    height: auto;
+    //transform: rotateY(60deg);
+}
+
+.element {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.tool-plate {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
